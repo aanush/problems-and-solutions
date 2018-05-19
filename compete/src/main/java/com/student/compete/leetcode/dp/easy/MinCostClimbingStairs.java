@@ -2,6 +2,9 @@ package com.student.compete.leetcode.dp.easy;
 
 public class MinCostClimbingStairs {
 
+    // study more
+    // https://leetcode.com/problems/min-cost-climbing-stairs/description/
+
     public int minCostClimbingStairs(int[] cost) {
         if (cost.length <= 2) {
             return 0;
