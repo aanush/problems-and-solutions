@@ -1,4 +1,4 @@
-package com.student.compete.leetcode.dp;
+package com.student.compete.leetcode.dp.hard;
 
 public class InversePairsArray {
 
