@@ -89,10 +89,8 @@ public class BinaryWatch {
             int[] permutationCopy = Arrays.copyOf(permutation, permutation.length);
             permutationCopy[glowIndex] = glow;
             permutationSet.add(permutationCopy);
-            permuteIncrementGlow(permutation, permutationSet, glowIndex + 1, fade, glow);
-        } else {
-            permuteIncrementGlow(permutation, permutationSet, glowIndex + 1, fade, glow);
         }
+        permuteIncrementGlow(permutation, permutationSet, glowIndex + 1, fade, glow);
 
     }
 
